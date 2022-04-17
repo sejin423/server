@@ -1,1 +1,1 @@
-worker:python \DDOKDDOK\__init__.py
+worker:python config.py

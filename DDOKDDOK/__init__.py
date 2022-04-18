@@ -29,7 +29,7 @@ def create_app():
         migrate.init_app(app, db)
     from DDOKDDOK import models
 
-    # 블루프린트
+    # blueprint
     from DDOKDDOK.views import main_views, auth_views, test_room_views
     app.register_blueprint(main_views.bp)
     app.register_blueprint(auth_views.bp)

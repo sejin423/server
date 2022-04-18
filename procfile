@@ -1,1 +1,1 @@
-worker:python config.py
+worker: python config.py
